@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
-void fact(int n){
+int fact(int n){
     if(n==0){
-        cout<<"0"<<endl;
-        return;
+        return 1;
     }
-    cout<<n*(n-1)<<endl;
+    return n*fact(n-1);
 
 }
 int main(){
-    fact(3);
+    
+    cout<<fact(4)<<endl;
 }
