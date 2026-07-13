@@ -1,0 +1,22 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+void subset(vector<int> arr, vector<int> &ans, int i){
+    if(i==arr.size()){
+        for(int var : ans){
+        cout<<var<<" ";
+        }
+        cout<<endl;
+        return;
+    }                  //most important question 
+    ans.push_back(arr[i]);
+    subset(arr,ans,i+1);
+    ans.pop_back();     // for back tracking 
+    subset(arr,ans,i+1);
+}
+int main(){
+    vector<int> arr ={1,2,3};
+    vector<int> ans;
+    subset(arr,ans,0);
+    return 0;
+}           //time complexity is == O(2^n * n )
