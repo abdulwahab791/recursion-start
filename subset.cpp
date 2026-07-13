@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+
 void subset(vector<int> &arr, vector<int> &ans, int i, vector<vector<int>> &allsubset)
 {
     if(i == arr.size())
