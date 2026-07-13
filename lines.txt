@@ -1,0 +1,5 @@
+Easy Definitions
+Recursion is a function that calls itself to solve a smaller version of the same problem.
+Recursion breaks a big problem into smaller, similar problems.
+Every recursive function must have a base case to stop the recursion.
+Without a base case, recursion leads to infinite function calls (stack overflow).
