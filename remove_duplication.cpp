@@ -30,4 +30,5 @@ int main(){
         }
         cout<<endl;
     }
+    //time complexity is =O(2^n * n)
 }
