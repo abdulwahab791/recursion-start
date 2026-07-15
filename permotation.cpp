@@ -23,8 +23,8 @@ int main(){
     vector<vector<int>> ans;
     getperm(arr,0,ans);
     for(auto x : ans){
-        for(auto y : x){
-            cout << y << " ";
+        for(auto y : x){ //for print values
+            cout << y << " "; // print one value with space 
         }
         cout << endl;
     }
