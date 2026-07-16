@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<string>
 using namespace std;
 void getperm(vector<string> &arr, int i, vector<vector<string>> &ans){
     if(i == arr.size())
