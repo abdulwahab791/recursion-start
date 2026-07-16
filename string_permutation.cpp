@@ -31,3 +31,12 @@ int main(){
     return 0;
 }
 ///time complexity O(n! * n)
+/*
+Output ::
+a b c 
+a c b 
+b a c 
+b c a 
+c b a 
+c a b
+*/
